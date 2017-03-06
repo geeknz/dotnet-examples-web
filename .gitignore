@@ -1,0 +1,7 @@
+*.iml
+*.sln
+*.xproj
+.idea/
+bin/
+obj/
+project.lock.json
