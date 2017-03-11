@@ -8,14 +8,14 @@ namespace test.nz.geek.colin.examples.dotnet
         [Fact]
         public void DummyTest1()
         {
-            var controller = new ValuesController();
+            var controller = new ValuesController(null);
             Assert.True(false);
         }
 
         [Fact]
         public void DummyTest2()
         {
-            var controller = new ValuesController();
+            var controller = new ValuesController(null);
             Assert.True(true);
         }
     }
