@@ -1,7 +1,7 @@
-using nz.geek.colin.examples.dotnet.models;
 using System.Linq;
+using WebApp.Models;
 
-namespace nz.geek.colin.examples.dotnet.data
+namespace WebApp.Data
 {
 	public static class DbInitializer
 	{

@@ -1,13 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using WebApp.Data;
 
 namespace WebApp.Migrations
 {
 	[DbContext(typeof(ValueContext))]
-	partial class ValueContextModelSnapshot : ModelSnapshot
+	[Migration("20170311184339_Values")]
+	partial class Values
 	{
-		protected override void BuildModel(ModelBuilder modelBuilder)
+		protected override void BuildTargetModel(ModelBuilder modelBuilder)
 		{
 			modelBuilder
 				.HasAnnotation("ProductVersion", "1.1.1");

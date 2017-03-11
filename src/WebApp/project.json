@@ -47,6 +47,6 @@
 	},
 
 	"tooling": {
-		"defaultNamespace": "nz.geek.colin.examples.dotnet"
+		"defaultNamespace": "WebApp"
 	}
 }

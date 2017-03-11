@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using nz.geek.colin.examples.dotnet.data;
+using WebApp.Data;
 
-namespace nz.geek.colin.examples.dotnet
+namespace WebApp
 {
 	public class Startup
 	{

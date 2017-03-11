@@ -1,4 +1,4 @@
-namespace nz.geek.colin.examples.dotnet.models
+namespace WebApp.Models
 {
 	public class Value
 	{

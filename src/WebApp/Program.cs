@@ -1,7 +1,7 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace nz.geek.colin.examples.dotnet
+namespace WebApp
 {
 	public class Program
 	{

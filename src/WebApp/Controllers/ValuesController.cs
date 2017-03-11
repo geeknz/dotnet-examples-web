@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using nz.geek.colin.examples.dotnet.data;
-using nz.geek.colin.examples.dotnet.models;
 using System.Collections.Generic;
+using WebApp.Data;
+using WebApp.Models;
 
-namespace nz.geek.colin.examples.dotnet.controllers
+namespace WebApp.Controllers
 {
 	[Route("api/[controller]")]
 	public class ValuesController

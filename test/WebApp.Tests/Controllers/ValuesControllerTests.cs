@@ -1,22 +1,22 @@
-using nz.geek.colin.examples.dotnet;
+using WebApp.Controllers;
 using Xunit;
 
-namespace test.nz.geek.colin.examples.dotnet
+namespace WebApp.Tests
 {
-    public class ValuesControllerTests
-    {
-        [Fact]
-        public void DummyTest1()
-        {
-            var controller = new ValuesController(null);
-            Assert.True(false);
-        }
+	public class ValuesControllerTests
+	{
+		[Fact]
+		public void DummyTest1()
+		{
+			var controller = new ValuesController(null);
+			Assert.True(false);
+		}
 
-        [Fact]
-        public void DummyTest2()
-        {
-            var controller = new ValuesController(null);
-            Assert.True(true);
-        }
-    }
+		[Fact]
+		public void DummyTest2()
+		{
+			var controller = new ValuesController(null);
+			Assert.True(true);
+		}
+	}
 }

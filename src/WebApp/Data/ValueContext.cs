@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using nz.geek.colin.examples.dotnet.models;
+using WebApp.Models;
 
-namespace nz.geek.colin.examples.dotnet.data
+namespace WebApp.Data
 {
 	public class ValueContext : DbContext
 	{
